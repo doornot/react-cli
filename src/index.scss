@@ -1,0 +1,11 @@
+@import 'normalize.scss';
+
+$f20: 20px;
+
+.hello {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: $f20;
+	margin: 20px;
+}
