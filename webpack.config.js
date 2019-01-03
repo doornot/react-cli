@@ -68,13 +68,13 @@ module.exports = {
 		new OptimizeCssAssetsPlugin({
 			assetNameRegExp: /\.css$/g,
 			cssProcessor: require('cssnano'),
-      cssProcessorOptions: {
+			cssProcessorOptions: {
 				// 移除注释
 				discardComments: { removeAll: true },
 				// 避免 cssnano 重新计算 z-index
-        safe: true,
+				safe: true,
       },
-      canPrint: true
+			canPrint: true
 		}),
 	]
 };
