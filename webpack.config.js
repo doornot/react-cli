@@ -73,7 +73,7 @@ module.exports = {
 				discardComments: { removeAll: true },
 				// 避免 cssnano 重新计算 z-index
 				safe: true,
-      },
+			},
 			canPrint: true
 		}),
 	]
